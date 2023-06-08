@@ -1,0 +1,29 @@
+@import "./tailwind.css";
+
+.top-bar {
+  p {
+    @apply bg-[#3C3C3C];
+    &:hover {
+      @apply border-b border-white;
+    }
+  }
+  .router-link-active.router-link-exact-active {
+    p {
+      @apply bg-[#1E1E1E] font-bold;
+      &:hover {
+        @apply border-b-0;
+      }
+    }
+  }
+}
+
+.sub-sidebar {
+  .router-link-active.router-link-exact-active {
+    p {
+      @apply bg-[#1E1E1E] font-bold;
+      &:hover {
+        @apply border-b-0;
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <main></main>
+  <div class="w-full py-12 px-6">Home Page</div>
 </template>
