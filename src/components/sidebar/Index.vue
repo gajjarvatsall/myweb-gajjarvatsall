@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-full">
+  <div class="flex">
     <div class="bg-[#3c3c3c] w-fit">
       <div class="px-2 md:px-4 py-5">Icons</div>
     </div>

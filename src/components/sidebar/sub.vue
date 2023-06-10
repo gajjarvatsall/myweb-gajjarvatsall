@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:block bg-[#252526] w-64 font-body">
+  <div class="hidden md:block bg-[#252526] w-56 font-body">
     <div>
       <div class="py-3 px-5">
         <p class="uppercase">Explorer</p>
@@ -12,10 +12,7 @@
             <Items :item="item">
               <template #default>
                 <router-link :to="item.link" class="flex items-center gap-2">
-                  <img
-                    :src="`../../../public/${item.icon}.svg`"
-                    :alt="item.name"
-                  />
+                  <img :src="`../../../${item.icon}.svg`" :alt="item.name" />
                   <p class="text-xs">{{ item.name }}</p>
                 </router-link>
               </template>
