@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 px-6 max-h-[500px] overflow-auto">
+  <div class="p-8">
     <div class="flex flex-col items-center">
       <div class="flex items-center gap-6">
         <img src="/vatsal-gajjar.jpg" alt="" class="rounded-lg" />

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8 max-h-[500px] overflow-auto space-y-10">
+  <div class="p-8 space-y-10">
     <!-- Education -->
     <div class="font-display space-y-5">
       <Title title="Education" />

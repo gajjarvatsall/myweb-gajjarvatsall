@@ -11,21 +11,33 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
+      meta: {
+        label: "README",
+      },
     },
     {
       path: "/experience",
       name: "experience",
       component: ExperienceView,
+      meta: {
+        label: "Experience",
+      },
     },
     {
       path: "/projects",
       name: "projects",
       component: ProjectsView,
+      meta: {
+        label: "Projects",
+      },
     },
     {
       path: "/contact",
       name: "contact",
       component: ContactView,
+      meta: {
+        label: "Contact",
+      },
     },
   ],
 });
