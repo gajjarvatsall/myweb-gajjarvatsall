@@ -15,46 +15,8 @@
           adventure and lets redefine what's possible together! 🤝
         </p>
       </div>
-      <div class="flex flex-col items-center gap-4">
-        <h2 class="font-display text-4xl font-semibold">My Skills</h2>
-        <div class="flex items-center gap-6">
-          <img
-            v-for="(skill, index) in skills"
-            :key="index"
-            :src="`/${skill.image}.svg`"
-            :alt="skill.alt"
-          />
-        </div>
-      </div>
     </div>
   </div>
 </template>
 
-<script setup>
-const skills = [
-  {
-    image: "flutter_language",
-    alt: "Flutter Language",
-  },
-  {
-    image: "firebase_language",
-    alt: "Firebase Language",
-  },
-  {
-    image: "c++_language",
-    alt: "C++ Language",
-  },
-  {
-    image: "dart_language",
-    alt: "Dart Language",
-  },
-  {
-    image: "c_language",
-    alt: "C Language",
-  },
-  {
-    image: "python_language",
-    alt: "Python Language",
-  },
-];
-</script>
+<script setup></script>

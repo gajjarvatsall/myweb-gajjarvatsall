@@ -1,6 +1,6 @@
 <template>
-  <main class="bg-image p-4 md:p-6 h-screen">
-    <div class="bg-[#1e1e1e] rounded-lg overflow-hidden text-white">
+  <main class="bg-image p-4 md:p-6">
+    <div class="bg-[#1e1e1e] rounded-lg h-full overflow-hidden text-white">
       <div class="w-full text-center py-2 uppercase font-body bg-[#3c3c3c]">
         My Portfolio
       </div>
