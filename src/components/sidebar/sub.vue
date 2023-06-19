@@ -28,7 +28,7 @@
 const items = [
   {
     name: "README.md",
-    link: "/",
+    link: "/home",
     icon: "readme",
   },
   {

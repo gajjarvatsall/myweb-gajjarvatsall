@@ -1,7 +1,7 @@
 <template>
-  <div class="p-8 space-y-10">
+  <div class="p-16 space-y-10 max-h-[500px] overflow-auto">
     <!-- Education -->
-    <div class="font-display space-y-5">
+    <!-- <div class="font-display space-y-5">
       <Title title="Education" />
       <div class="experience flex items-center gap-24">
         <div
@@ -19,52 +19,62 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Skills -->
-    <div class="font-display space-y-5">
+    <div class="font-display space-y-8">
       <Title title="Skills" />
       <div class="space-y-8">
         <div
-          class="flex items-center gap-8"
+          class="flex items-center gap-7 bg-[#424242] p-6 rounded-2xl"
           v-for="(skill, index) in skills"
           :key="index"
         >
-          <img
-            class="w-28 h-28"
-            :src="`/${skill.image}.svg`"
-            :alt="skill.alt"
-          />
+          <div class="flex-[0_0_25%]">
+            <img
+              class="w-4/5 mx-auto"
+              :src="`/${skill.image}.svg`"
+              :alt="skill.alt"
+            />
+          </div>
           <div>
-            <h4 class="text-4xl font-bold">{{ skill.name }}</h4>
-            <p class="text-lg">LEVEL: {{ skill.level }}</p>
-            <p class="pt-1 text-base">{{ skill.content }}</p>
+            <h4 class="text-4xl font-medium pb-4">{{ skill.name }}</h4>
+            <p class="text-lg border-b border-[#757575] pb-4 text-[#E0E0E0]">
+              {{ skill.level }} Level
+            </p>
+            <p class="pt-4 font-light text-base text-[#BDBDBD]">
+              {{ skill.content }}
+            </p>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Experiences -->
-    <div class="font-display space-y-5">
+    <div class="font-display space-y-8">
       <Title title="Experiences" />
       <div class="space-y-16">
         <div
-          class="flex items-center gap-8"
+          class="flex"
           v-for="(experience, index) in experiences"
           :key="index"
         >
-          <div class="space-y-2">
-            <h4 class="text-xl font-bold">{{ experience.text }}</h4>
-            <p class="text-sm">{{ experience.content }}</p>
+          <div
+            class="space-y-4 flex-[0_0_60%] bg-[#424242] p-5 rounded-tl-2xl rounded-bl-2xl"
+          >
+            <h4 class="text-3xl font-medium">{{ experience.text }}</h4>
+            <p class="text-base text-[#BDBDBD] font-light">
+              {{ experience.content }}
+            </p>
           </div>
           <div class="relative w-full">
             <img
-              class="w-64 rounded-lg"
+              class="w-full h-full rounded-tr-2xl rounded-br-2xl"
               :src="`/${experience.image}.jpg`"
               :alt="experience.alt"
             />
             <img
-              class="absolute -bottom-8 -right-4 rounded-lg w-28"
+              class="absolute -bottom-8 -right-4 rounded-full border-8 border-black w-40"
               :src="`/${experience.image2}.jpg`"
               :alt="experience.alt"
             />
@@ -125,8 +135,8 @@ const skills = [
       "Proficient in cross-platform app development using the Flutter framework, creating visually appealing and responsive user interfaces.",
   },
   {
-    image: "c_language",
-    alt: "C Language",
+    image: "c-c++_language",
+    alt: "C & C++ Language",
     name: "C and C++",
     level: "Expert",
     content:

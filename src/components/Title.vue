@@ -1,5 +1,10 @@
 <template>
-  <h2 class="text-4xl font-semibold">{{ title }}</h2>
+  <div class="flex items-center gap-5">
+    <img src="/title-icon.svg" alt="title-icon" />
+    <h2 class="text-5xl font-semibold">
+      {{ title }}
+    </h2>
+  </div>
 </template>
 
 <script setup>

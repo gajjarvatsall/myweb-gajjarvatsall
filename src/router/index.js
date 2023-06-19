@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import CoverView from "@/views/Index.vue";
 import HomeView from "@/views/HomeView.vue";
 import ExperienceView from "@/views/Experience.vue";
 import ProjectsView from "@/views/Projects.vue";
@@ -9,6 +10,14 @@ const router = createRouter({
   routes: [
     {
       path: "/",
+      name: "cover",
+      component: CoverView,
+      meta: {
+        label: "Vatsal Gajjar's Portfolio",
+      },
+    },
+    {
+      path: "/home",
       name: "home",
       component: HomeView,
       meta: {
