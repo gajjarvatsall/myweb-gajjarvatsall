@@ -15,8 +15,8 @@
           />
         </div>
         <p>My Portfolio</p>
-        <div class="hidden md:block"></div>
-        <div class="relative md:hidden">
+        <div></div>
+        <!-- <div class="relative md:hidden">
           <span
             ><IconArrowDown
               @click="openDropdown()"
@@ -40,13 +40,13 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="flex h-full">
         <!-- Sidebar -->
-        <Sidebar class="hidden md:flex" />
+        <Sidebar />
 
-        <div class="w-full">
+        <div class="w-11/12 md:w-full">
           <!-- TopBar -->
           <TopBar :items="items" />
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 lg:p-16 space-y-10 max-h-[550px] overflow-auto">
+  <div class="p-4 lg:p-16 space-y-10 max-h-[600px] overflow-auto">
     <!-- Skills -->
     <Transition duration="550" name="nested">
       <div class="font-display space-y-4 lg:space-y-8">

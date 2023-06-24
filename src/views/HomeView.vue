@@ -1,7 +1,11 @@
 <template>
-  <div class="p-4 lg:p-16 max-h-[550px] overflow-auto">
-    <img src="/vatsal-gajjar.jpg" alt="" class="rounded-lg" />
-    <div class="pt-10 space-y-7">
+  <div class="p-4 lg:p-16 max-h-[600px] overflow-auto">
+    <img
+      src="/vatsal-gajjar.jpg"
+      alt="vatsal-gajjar"
+      class="mx-auto rounded-lg lg:mx-0"
+    />
+    <div class="text-center pt-10 space-y-7 lg:text-left">
       <h1 class="text-4xl lg:text-7xl font-light">Vatsal Gajjar</h1>
       <p class="text-sm lg:text-base font-body text-[#BDBDBD]">
         Hey there! I’m Flutter developer with a Python superpower. In just 6
@@ -14,7 +18,7 @@
     </div>
 
     <div class="pt-6 md:pt-16">
-      <div class="flex flex-col lg:items-center gap-8 lg:flex-row">
+      <div class="flex flex-col items-center gap-8 lg:flex-row">
         <p class="text-2xl lg:text-3xl font-medium">My Skills</p>
         <div class="flex items-center gap-4 lg:gap-5">
           <Image

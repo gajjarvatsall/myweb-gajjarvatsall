@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:block bg-[#252526] w-48 font-body">
+  <div class="hidden lg:block bg-[#252526] w-48 font-body">
     <div>
       <div class="py-3 px-5">
         <p class="uppercase">Explorer</p>
