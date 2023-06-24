@@ -15,6 +15,7 @@
           />
         </div>
         <p>My Portfolio</p>
+        <div class="hidden md:block"></div>
         <div class="relative md:hidden">
           <span
             ><IconArrowDown
