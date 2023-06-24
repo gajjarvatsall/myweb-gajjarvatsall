@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col items-center justify-center py-20 px-32">
-    <div>
-      <img src="/hello.svg" alt="hello" />
-    </div>
-    <div class="pt-16 text-center">
+  <div
+    class="flex flex-col items-center justify-center gap-16 py-12 lg:py-20 px-4 lg:px-32"
+  >
+    <img src="/hello.svg" alt="hello" class="pt-20" />
+    <div class="text-center">
       <h2 class="text-5xl font-semibold">I'm Vatsal Gajjar</h2>
       <p class="pt-6 text-[#BDBDBD]">
         Hey there! I’m Flutter developer with a Python superpower. In just 6

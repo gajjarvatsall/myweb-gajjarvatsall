@@ -12,7 +12,7 @@
             <Items :item="item">
               <template #default>
                 <router-link :to="item.link" class="flex items-center gap-2">
-                  <img :src="`../../../${item.icon}.svg`" :alt="item.name" />
+                  <Image :url="`${item.icon}.svg`" :alt="item.name" />
                   <p class="text-xs">{{ item.name }}</p>
                 </router-link>
               </template>
@@ -28,7 +28,7 @@
 const items = [
   {
     name: "README.md",
-    link: "/home",
+    link: "/",
     icon: "readme",
   },
   {

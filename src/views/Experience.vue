@@ -1,8 +1,8 @@
 <template>
-  <div class="p-16 space-y-10 max-h-[500px] overflow-auto">
+  <div class="p-4 lg:p-16 space-y-10 max-h-[500px] overflow-auto">
     <!-- Skills -->
     <Transition duration="550" name="nested">
-      <div class="font-display space-y-8">
+      <div class="font-display space-y-4 lg:space-y-8">
         <Title title="Skills" />
         <div class="space-y-8">
           <Card v-for="(skill, index) in skills" :key="index" :skill="skill" />
@@ -13,7 +13,7 @@
     <!-- Experiences -->
     <div class="font-display space-y-8">
       <Title title="Experiences" />
-      <div class="space-y-16">
+      <div class="space-y-8">
         <Card
           v-for="(experience, index) in experiences"
           :key="index"

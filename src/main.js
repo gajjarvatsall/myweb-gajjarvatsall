@@ -9,8 +9,9 @@ const app = createApp(App);
 
 import Title from "@/components/Title.vue";
 import Card from "@/components/Card.vue";
+import Image from "@/components/Image.vue";
 
-app.component("Title", Title).component("Card", Card);
+app.component("Title", Title).component("Card", Card).component("Image", Image);
 
 app.use(router);
 

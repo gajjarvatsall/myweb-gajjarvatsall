@@ -2,9 +2,9 @@
   <main class="bg-image p-4 md:p-6">
     <div class="bg-[#1e1e1e] rounded-2xl h-full overflow-hidden text-white">
       <div
-        class="w-full flex items-center justify-between text-center py-2 uppercase font-body bg-[#3c3c3c]"
+        class="w-full flex items-center justify-center lg:justify-between text-center py-2 uppercase font-body bg-[#3c3c3c]"
       >
-        <div class="flex items-center gap-2 px-5">
+        <div class="hidden md:flex items-center gap-2 px-5">
           <div
             v-for="(color, index) in colors"
             :key="index"
@@ -13,17 +13,21 @@
           />
         </div>
         <p>My Portfolio</p>
-        <div></div>
+        <div class="hidden md:block"></div>
       </div>
       <div class="flex">
         <!-- Sidebar -->
-        <Sidebar v-if="$route.path !== '/'" />
+        <Sidebar />
 
-        <div class="w-full">
+        <div class="w-[300px] md:w-full">
           <!-- TopBar -->
-          <TopBar :items="items" v-if="$route.path !== '/'" />
+          <TopBar :items="items" />
 
-          <RouterView />
+          <RouterView v-slot="{ Component }">
+            <Transition name="fade" mode="out-in">
+              <component :is="Component" />
+            </Transition>
+          </RouterView>
         </div>
       </div>
     </div>
@@ -37,7 +41,7 @@ import TopBar from "@/components/TopBar.vue";
 const items = [
   {
     name: "README.md",
-    link: "/home",
+    link: "/",
     icon: "readme",
   },
   {
@@ -73,5 +77,20 @@ const colors = [
 <style lang="scss">
 .bg-image {
   background: url("../bg-image.jpg") no-repeat center center;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-leave-from,
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
 }
 </style>
