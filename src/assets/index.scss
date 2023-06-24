@@ -1,0 +1,56 @@
+@import "./tailwind.css";
+
+.top-bar {
+  p {
+    @apply bg-[#3C3C3C];
+    &:hover {
+      @apply bg-[#1e1e1e];
+    }
+  }
+  .router-link-active.router-link-exact-active {
+    p {
+      @apply bg-[#1E1E1E] font-bold;
+      &:hover {
+        @apply border-b-0;
+      }
+    }
+  }
+}
+
+.sub-sidebar {
+  .router-link-active.router-link-exact-active {
+    p {
+      @apply font-bold;
+      &:hover {
+        @apply border-b-0;
+      }
+    }
+  }
+}
+
+.experience {
+  @apply relative w-fit;
+  &::after {
+    @apply content-[''] absolute w-full h-0.5 bg-[#3C3C3C] right-0;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-1 h-1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-[#1e1e1e];
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-600;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500;
+}
