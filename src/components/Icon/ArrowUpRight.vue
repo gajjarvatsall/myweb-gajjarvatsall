@@ -1,0 +1,19 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill="currentColor"
+      d="m16 8.4l-8.875 8.9q-.3.3-.713.3t-.712-.3q-.3-.3-.3-.713t.3-.712L14.6 7H7q-.425 0-.713-.288T6 6q0-.425.288-.713T7 5h10q.425 0 .713.288T18 6v10q0 .425-.288.713T17 17q-.425 0-.713-.288T16 16V8.4Z"
+    ></path>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: "MaterialSymbolsArrowOutwardRounded",
+};
+</script>
