@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 lg:p-16 space-y-10 max-h-[590px] overflow-auto">
+  <div class="p-4 lg:p-16 space-y-10 lg:max-h-[590px] lg:overflow-auto">
     <div class="font-display space-y-8">
       <Title title="Projects" />
       <div class="space-y-8">

@@ -19,7 +19,7 @@
         <!-- Sidebar -->
         <Sidebar />
 
-        <div class="w-11/12 md:w-full">
+        <div class="w-11/12 md:w-full h-screen overflow-auto lg:h-auto">
           <!-- TopBar -->
           <TopBar :items="items" />
 

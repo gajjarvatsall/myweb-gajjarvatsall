@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 lg:p-16 max-h-[550px] overflow-auto">
+  <div class="p-4 lg:p-16 lg:max-h-[550px] lg:overflow-auto">
     <img
       src="/vatsal-gajjar.jpg"
       alt="vatsal-gajjar"
