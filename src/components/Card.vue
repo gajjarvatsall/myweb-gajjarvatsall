@@ -39,11 +39,7 @@
         :url="experience.image"
         :alt="experience.alt"
       />
-      <Image
-        class="absolute -bottom-6 -right-4 rounded-full border-8 border-black w-40"
-        :url="experience.image2"
-        :alt="experience.alt"
-      />
+   
     </div>
   </div>
 
@@ -51,7 +47,7 @@
     v-if="project"
     class="flex flex-col bg-[#424242] rounded-2xl overflow-hidden lg:flex-row"
   >
-    <div class="space-y-4 flex-[0_0_60%] p-5 rounded-tl-2xl rounded-bl-2xl">
+    <div class="space-y-4 flex-[0_0_60%] p-5">
       <h4 class="text-xl lg:text-3xl font-medium">{{ project.title }}</h4>
       <p class="text-sm text-[#BDBDBD]">
         GitHub Link:
@@ -70,15 +66,11 @@
     </div>
     <div class="relative w-full">
       <Image
-        class="w-full h-full rounded-tr-2xl rounded-br-2xl"
+        class="w-full h-full "
         :url="project.image"
         :alt="project.alt"
       />
-      <Image
-        class="absolute -bottom-6 -right-4 rounded-full border-8 border-black w-40"
-        :url="project.image2"
-        :alt="project.alt"
-      />
+
     </div>
   </div>
 </template>

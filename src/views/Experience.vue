@@ -74,14 +74,12 @@ const experiences = [
     content:
       "During my 6-month internship at 7Span Internet PVT LTD, I had the opportunity to immerse myself in the world of Flutter development. Under the guidance of experienced professionals, I gained valuable hands-on experience in building mobile applications using Flutter and Dart. This internship provided me with a solid foundation in creating visually appealing and responsive user interfaces while ensuring smooth performance across different platforms. It was an invaluable experience that enhanced my skills and knowledge in the Flutter ecosystem.",
     image: "internship-experience.jpg",
-    image2: "internship-pic.jpg",
   },
   {
     text: "Volunteer Experience: Connecting and Learning at Google Devfest Ahmedabad 2022!",
     content:
       "During my volunteer experience at Google Devfest Ahmedabad 2022, I had the privilege of being a part of the Social Media Team. This dynamic tech event featured sessions in three key areas: Mobile, Web, and Startups. Through my involvement, I had the opportunity to meet and connect with numerous like-minded individuals, including developers who delivered insightful sessions on various technologies. The event was a transformative experience, as it not only expanded my network but also enabled me to learn and explore new developments in the tech industry.",
     image: "volunteer-experience.jpg",
-    image2: "volunteer-pic.jpg",
   },
 ];
 </script>

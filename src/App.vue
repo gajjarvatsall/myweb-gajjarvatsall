@@ -84,11 +84,8 @@ const items = [
     link: "/projects",
     icon: "python",
   },
-  {
-    name: "contact.txt",
-    link: "/contact",
-    icon: "contact",
-  },
+  
+
 ];
 
 const colors = [

@@ -8,7 +8,7 @@
     <div class="text-center pt-10 space-y-7 lg:text-left">
       <h1 class="text-4xl lg:text-7xl font-light">Vatsal Gajjar</h1>
       <p class="text-sm lg:text-base font-body text-[#BDBDBD]">
-        Hey there! I’m Flutter developer with a Python superpower. In just 6
+        Hey there! I’m a developer with Flutter and Python superpower. In just 6
         months, I’ve rocked the coding world with my skills. But hold on,
         there’s more to me than lines of code! I’m also a video editing maestro.
         With a dash of humor and a sprinkle of happiness, I’m here to code,

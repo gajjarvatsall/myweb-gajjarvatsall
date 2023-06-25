@@ -34,6 +34,10 @@ import SubSidebar from "@/components/sidebar/sub.vue";
 
 const links = [
   {
+    icon: "mail.svg",
+    anchor: "mailto: vatsalgajjar84@gmail.com",
+  },
+  {
     icon: "github.svg",
     anchor: "https://github.com/gajjarvatsall",
   },

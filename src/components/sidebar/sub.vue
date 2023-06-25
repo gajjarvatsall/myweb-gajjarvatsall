@@ -41,10 +41,5 @@ const items = [
     link: "/projects",
     icon: "projects",
   },
-  {
-    name: "contact.txt",
-    link: "/contact",
-    icon: "contact",
-  },
 ];
 </script>
