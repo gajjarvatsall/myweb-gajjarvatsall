@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-image px-4 py-6 md:px-0">
+  <main class="bg-image px-4 py-6 md:px-6">
     <div class="bg-[#1e1e1e] rounded-2xl overflow-hidden text-white">
       <div
         class="w-full flex items-center justify-between text-center p-2 uppercase font-body bg-[#3c3c3c]"
@@ -15,7 +15,7 @@
         <p>My Portfolio</p>
         <div></div>
       </div>
-      <div class="flex h-full">
+      <div class="flex">
         <!-- Sidebar -->
         <Sidebar />
 
